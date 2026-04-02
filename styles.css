@@ -1,0 +1,27 @@
+/* =============================================================
+   styles.css — Cerratec shared overrides
+   Applies on top of Tailwind CDN (all pages).
+   ============================================================= */
+
+/* ---- Header logo — left-align adjustment ----
+   The SVG canvas is 1024×1024 with visible content starting
+   at ~x=254 (≈25% from left). After scale(5.3) origin-left,
+   the rendered logo content appears ~63 px to the right of the
+   img layout box. translateX pulls only the logo back toward
+   the edge; the nav and CTA flex-items are unaffected because
+   CSS transforms do not affect flow layout.
+   ---------------------------------------------------------------- */
+
+/* Desktop default (≥ 768 px):
+   Bring logo flush with the max-w-6xl container's left edge. */
+.header-logo-wrap {
+  transform: translateX(-54px);
+}
+
+/* Mobile (< 768 px):
+   Pull logo very close to the screen's left edge. */
+@media (max-width: 767px) {
+  .header-logo-wrap {
+    transform: translateX(-23px);
+  }
+}
