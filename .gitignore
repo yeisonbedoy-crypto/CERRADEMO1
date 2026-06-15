@@ -1,4 +1,8 @@
-.claude/
-*.log
-.DS_Store
-Thumbs.db
+node_modules/
+src/
+cerratectarragona-audit/
+GEO-AUDIT-REPORT.md
+package-lock.json
+
+# Credenciales — nunca subir
+deploy.ps1
