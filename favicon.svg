@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0B1C2C"/>
+  <g transform="rotate(45, 16, 16)">
+    <!-- Bow (ring) -->
+    <circle cx="9" cy="16" r="7" fill="#D37135"/>
+    <circle cx="9" cy="16" r="3.2" fill="#0B1C2C"/>
+    <!-- Blade -->
+    <rect x="15.5" y="14" width="15" height="4" rx="1.5" fill="#D37135"/>
+    <!-- Teeth -->
+    <rect x="21" y="18" width="3" height="4.5" rx="1" fill="#D37135"/>
+    <rect x="26" y="18" width="2.5" height="3.5" rx="1" fill="#D37135"/>
+  </g>
+</svg>

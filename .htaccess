@@ -1,0 +1,49 @@
+# Cabeceras de seguridad
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+# Activar el motor de redirección
+RewriteEngine On
+
+# Forzar HTTPS y versión SIN WWW
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.cerratectarragona\.com [NC]
+RewriteRule ^(.*)$ https://cerratectarragona.com/$1 [L,R=301]
+
+# 1. Redirigir de la carpeta vieja /contacto/ a contacto.html
+Redirect 301 /contacto/ https://cerratectarragona.com/contacto.html
+
+# 2. Redirigir de /nosotros/ a nosotros.html
+Redirect 301 /nosotros/ https://cerratectarragona.com/nosotros.html
+
+# 3. Redirigir de /servicios/ a servicios.html
+Redirect 301 /servicios/ https://cerratectarragona.com/servicios.html
+
+# 3b. Redirigir páginas de servicio renombradas (/servicios/ → /nuestros-servicios/)
+Redirect 301 /servicios/apertura-puertas.html https://cerratectarragona.com/nuestros-servicios/apertura-puertas.html
+Redirect 301 /servicios/apertura-puertas https://cerratectarragona.com/nuestros-servicios/apertura-puertas.html
+Redirect 301 /servicios/cambio-cerraduras.html https://cerratectarragona.com/nuestros-servicios/cambio-cerraduras.html
+Redirect 301 /servicios/cambio-cerraduras https://cerratectarragona.com/nuestros-servicios/cambio-cerraduras.html
+Redirect 301 /servicios/apertura-automoviles.html https://cerratectarragona.com/nuestros-servicios/apertura-automoviles.html
+Redirect 301 /servicios/apertura-automoviles https://cerratectarragona.com/nuestros-servicios/apertura-automoviles.html
+Redirect 301 /servicios/cerrajeria-domestica.html https://cerratectarragona.com/nuestros-servicios/cerrajeria-domestica.html
+Redirect 301 /servicios/cerrajeria-domestica https://cerratectarragona.com/nuestros-servicios/cerrajeria-domestica.html
+Redirect 301 /servicios/cerraduras-inteligentes.html https://cerratectarragona.com/nuestros-servicios/cerraduras-inteligentes.html
+Redirect 301 /servicios/cerraduras-inteligentes https://cerratectarragona.com/nuestros-servicios/cerraduras-inteligentes.html
+
+# 4. Si tenías una página de urgencias específica:
+Redirect 301 /urgencias-24h/ https://cerratectarragona.com/index.html
+
+# 5. Redirigir cualquier página de "Trabajos realizados" al inicio (si ya no existe)
+Redirect 301 /trabajos/ https://cerratectarragona.com/index.html#testimonios
+
+# 2. Redirigir el enlace "HOME" antiguo a la nueva raíz
+Redirect 301 /home/ https://cerratectarragona.com/index.html
+
+# 3. Redirigir el enlace de "Tarragona" a la sección de cobertura o a la página de zona
+Redirect 301 /tarragona/ https://cerratectarragona.com/index.html#zona

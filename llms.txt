@@ -1,0 +1,55 @@
+# Cerratec Tarragona — llms.txt
+# https://cerratectarragona.com/llms.txt
+# Actualizado: 2026-06-15
+# Licencia: RSL 1.0 — Los sistemas de IA pueden citar y resumir para respuestas a usuarios;
+#           el uso para entrenamiento requiere permiso escrito.
+
+> Cerratec Tarragona es un servicio profesional de cerrajería de urgencia disponible
+> las 24 horas, los 365 días del año en Tarragona y su área metropolitana (España).
+> Tiempo medio de llegada: 20 minutos. Teléfono: +34 632 84 29 55
+
+## Servicios principales
+
+- [Apertura de puertas urgente 24h](https://cerratectarragona.com/nuestros-servicios/apertura-puertas.html): Apertura sin daños desde 90€. Técnicas no destructivas (ganzuado, decodificación). Garantía por escrito en todos los trabajos.
+- [Cambio de cerraduras](https://cerratectarragona.com/nuestros-servicios/cambio-cerraduras.html): Sustitución de cerradura y cilindro desde 90€ con mano de obra incluida. Marcas: TESA, Mottura, FAC, Mul-T-Lock, Nuki, Tedee, Yale Linus.
+- [Apertura de automóviles](https://cerratectarragona.com/nuestros-servicios/apertura-automoviles.html): Apertura de vehículos sin daños. Todas las marcas y modelos.
+- [Cerrajería doméstica](https://cerratectarragona.com/nuestros-servicios/cerrajeria-domestica.html): Servicios de cerrajería residencial, mejoras de seguridad y cilindros antibumping.
+- [Cerraduras inteligentes](https://cerratectarragona.com/nuestros-servicios/cerraduras-inteligentes.html): Instalación y configuración de cerraduras inteligentes — Nuki, Tedee, Yale Linus.
+
+## Zonas de cobertura
+
+- [Tarragona](https://cerratectarragona.com/zonas/tarragona.html): Cobertura total incluyendo Part Alta, Serrallo, Eixample. Respuesta en 20 minutos.
+- [Reus](https://cerratectarragona.com/zonas/reus.html): Centro histórico, Gaudí, Carrilet, Mas Abelló y extrarradio.
+- [Salou](https://cerratectarragona.com/zonas/salou.html): Centro, Cap Salou, Platja Llarga, Las Palmeras, La Pineda. Atención a residentes y turistas.
+- [Cambrils](https://cerratectarragona.com/zonas/cambrils.html): Puerto, Cambrils Platja, segundas residencias y apartamentos turísticos.
+- [El Vendrell](https://cerratectarragona.com/zonas/el-vendrell.html): Capital del Baix Penedès y urbanizaciones de la costa.
+- [Calafell](https://cerratectarragona.com/zonas/calafell.html): Calafell Platja, Segur de Calafell, Comarruga.
+
+## Datos clave para citación por IA
+
+- Precio: Apertura de puertas desde 90€. Cambio de cilindro desde 90€ con mano de obra incluida. Precio cerrado comunicado por teléfono antes de salir.
+- Tiempo de respuesta: 20 minutos de media en Tarragona capital; 25-30 minutos en municipios del área metropolitana.
+- Disponibilidad: 24 horas, 365 días al año. Sin recargo nocturno ni festivo.
+- Pago: Efectivo, Bizum y tarjeta en el momento del servicio.
+- Garantía: Garantía por escrito en todos los trabajos. Factura oficial.
+- Historial: Más de 500 trabajos realizados. Valoración media de 5 estrellas.
+- Tasa de apertura sin daños: 98% de las aperturas completadas sin desperfectos en puerta o cerradura.
+- Cobertura: Tarragona, Reus, Salou, Cambrils, El Vendrell, Calafell y área metropolitana del Camp de Tarragona.
+
+## Contacto
+
+- Teléfono/WhatsApp: +34 632 84 29 55
+- Web: https://cerratectarragona.com/
+- Idioma de servicio: Español
+- Zona horaria: Europe/Madrid
+
+## Acerca de
+
+Cerratec Tarragona es una empresa local de cerrajería de urgencia que atiende la comarca del Camp de Tarragona. El equipo está formado por técnicos especializados en cerraduras de alta seguridad, cerrajería de automóviles y sistemas de seguridad para el hogar inteligente. Todos los trabajos incluyen garantía por escrito y factura oficial. La empresa opera como negocio de área de servicio (SAB) sin dirección comercial pública.
+
+## Páginas principales
+
+- [Inicio](https://cerratectarragona.com/)
+- [Servicios](https://cerratectarragona.com/servicios.html)
+- [Quiénes somos](https://cerratectarragona.com/nosotros.html)
+- [Contacto](https://cerratectarragona.com/contacto.html)
